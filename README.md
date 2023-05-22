@@ -11,23 +11,22 @@
 
 #### No terminal siga a lista de comandos abaixo:
 
-- git clone https://github.com/rafazingano/sistema-eventos-laravel.git 
+- git clone https://github.com/Fillipe-Albuquerque-Moreira-Dos-Santos/LaravelEventos
 - cd sistema-eventos-laravel
 - composer install
 - cp .env.example .env
 - Configurar o arquivo .env com as informações de conexão da base de dados.
-- php artisan key:generate
-- php artisan storage:link
 - php artisan migrate
-- php artisan db:seed 
 
 Agora tudo pronto, basta usar o "php artisan serve" e acessar o endereço http://localhost:8000
+
+Estarei disponibilizando o .sql para facilitar a instalação
 
 Foi utilizado uma estrutura de base de dados simples com a tabela de usuarios do proprio laravel, 
 uma tabela para persistir os eventos e uma ultima tabela para a compra do ingresso onde ficam salvos o evento, 
 quantidade e o usuário.
 
-Qualquer duvida fico a disposição no email "rafazingano@gmail.com"
+Qualquer duvida fico a disposição no email "fillipefff@gmail.com"
 
 ## About Laravel
 
